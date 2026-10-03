@@ -4,20 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Subhash BM — Staff Research Scientist</title>
-  <meta name="description" content="Subhash BM is a Staff Research Scientist building large-scale distributed ML systems, from ads ranking at Meta to cloud ML at Microsoft and AWS." />
+  <meta name="description" content="Subhash BM is a Staff Research Scientist at Meta working on large-scale distributed ML systems, with research in LLM knowledge integration and sustainable computing." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="nav" id="nav">
-    <a class="brand" href="#top">subhash<span>.dev</span></a>
+    <a class="brand" href="#top">Subhash BM</a>
     <nav class="links" id="nav-links">
       <a href="#about">About</a>
-      <a href="#experience">Experience</a>
       <a href="#research">Research</a>
-      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#service">Service</a>
       <a href="#contact">Contact</a>
     </nav>
     <button class="menu-btn" id="menu-btn" aria-label="Open menu">☰</button>
@@ -27,18 +27,19 @@
     <!-- HERO -->
     <section class="hero">
       <div class="hero-inner">
-        <p class="kicker">Staff Research Scientist · Bellevue, WA</p>
+        <div class="avatar">SB</div>
         <h1>Subhash BM</h1>
-        <p class="tagline">I build large-scale distributed machine learning systems — from petabyte-scale ads ranking infrastructure at Meta to cloud ML platforms at Microsoft and AWS.</p>
-        <div class="hero-cta">
-          <a class="btn primary" href="#experience">View my work</a>
-          <a class="btn ghost" href="#contact">Get in touch</a>
+        <p class="tagline">Staff Research Scientist at Meta · distributed ML systems · ads ranking at petabyte scale</p>
+        <div class="profile-links">
+          <a href="https://scholar.google.com/citations?user=9bC-IyoAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://orcid.org/0009-0001-6584-412X" target="_blank" rel="noopener">ORCID</a>
+          <a href="https://github.com/SubhashMadineni" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/subhash122/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:itsmesubhash21@gmail.com">Email</a>
         </div>
-        <div class="stats">
-          <div class="stat"><span class="num">9+</span><span class="label">years building ML systems</span></div>
-          <div class="stat"><span class="num">$44.5M</span><span class="label">est. annual inference savings</span></div>
-          <div class="stat"><span class="num">5,624</span><span class="label">features pruned at Meta</span></div>
-          <div class="stat"><span class="num">2</span><span class="label">published research papers</span></div>
+        <div class="hero-cta">
+          <a class="btn primary" href="resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+          <a class="btn ghost" href="research-cv.pdf" target="_blank" rel="noopener">Research CV (PDF)</a>
         </div>
       </div>
     </section>
@@ -46,15 +47,41 @@
     <!-- ABOUT -->
     <section class="section" id="about">
       <h2>About</h2>
-      <div class="about-grid">
-        <p class="lede">Staff Research Scientist at Meta with 9+ years of experience architecting high-performance, end-to-end ML pipelines across diverse technology stacks. I specialize in distributed ML systems, feature engineering at scale, and production model optimization — with a track record of mentoring engineering teams and delivering measurable business impact.</p>
-        <ul class="highlights">
-          <li>Designed FSOP, an end-to-end platform orchestrating distributed ML experiments across 10–20 production models simultaneously at petabyte scale.</li>
-          <li>Achieved 30–60% feature space reduction across 5 major advertising ranking models while holding prediction quality neutral (±0.025% NE).</li>
-          <li>Built end-to-end training pipelines (MLflow, PyTorch) serving millions of users, from data sampling to online experimentation.</li>
-          <li>Published research in sustainable computing and LLM knowledge integration.</li>
-        </ul>
+      <p class="lede">Staff Research Scientist at Meta (Bellevue, WA) with 9+ years of experience architecting high-performance, end-to-end machine learning pipelines across diverse technology stacks. I specialize in distributed ML systems, feature engineering at scale, and production model optimization — with a track record of mentoring engineering teams and delivering measurable business impact.</p>
+      <div class="stats">
+        <div class="stat"><span class="num">9+</span><span class="label">years building ML systems</span></div>
+        <div class="stat"><span class="num">$44.5M</span><span class="label">est. annual inference savings at Meta</span></div>
+        <div class="stat"><span class="num">5,624</span><span class="label">features pruned, quality held neutral</span></div>
+        <div class="stat"><span class="num">2</span><span class="label">published research papers</span></div>
       </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="section" id="research">
+      <h2>Research</h2>
+      <p class="lede">My research sits at the intersection of large-scale ML systems and practical impact: automated feature-space optimization and experiment orchestration for production ranking systems; scalable knowledge integration for large language models in heterogeneous enterprises; and carbon-aware, sustainable computing for cloud-native systems.</p>
+
+      <h3 class="subhead">Selected publications</h3>
+      <div class="pubs">
+        <article class="pub">
+          <p class="venue">IEEE-ICAISET 2026</p>
+          <h4>Carbon-Aware SLO Enforcement for Cloud-Native Microservices Using Adaptive Reliability Policies</h4>
+          <p class="authors"><strong>Subhash BM</strong>, URS Jagadish Almaipeta</p>
+          <p class="abstract">Adaptive reliability policies that enforce service-level objectives while minimizing the carbon footprint of cloud-native microservice deployments.</p>
+          <div class="tags"><span>Green Computing</span><span>Cloud-Native</span><span>SLOs</span><span>Microservices</span></div>
+        </article>
+        <article class="pub">
+          <p class="venue">Intl. Conf. on Integrated Intelligence and Cognitive Systems 2026</p>
+          <h4>A Scalable Knowledge Integration Framework for Large Language Models in Heterogeneous Enterprises</h4>
+          <p class="authors"><strong>Subhash BM</strong>, AKM Seetaram Rao Rayarao, Saraswati Mishra, Sahil Yadav</p>
+          <p class="abstract">A framework for integrating heterogeneous enterprise knowledge sources into large language models at scale.</p>
+          <div class="tags"><span>LLMs</span><span>Knowledge Integration</span><span>Enterprise AI</span></div>
+        </article>
+      </div>
+
+      <h3 class="subhead">In progress</h3>
+      <p class="muted">Industry-track manuscript in preparation on large-scale feature optimization for ads ranking systems (targeting NAACL 2027).</p>
+      <p class="scholar-link">Full list on <a href="https://scholar.google.com/citations?user=9bC-IyoAAAAJ" target="_blank" rel="noopener">Google Scholar</a> · <a href="https://orcid.org/0009-0001-6584-412X" target="_blank" rel="noopener">ORCID 0009-0001-6584-412X</a></p>
     </section>
 
     <!-- EXPERIENCE -->
@@ -140,30 +167,22 @@
       </div>
     </section>
 
-    <!-- RESEARCH -->
-    <section class="section" id="research">
-      <h2>Research &amp; Publications</h2>
-      <div class="cards">
-        <article class="card">
-          <p class="card-kicker">IEEE-ICAISET 2026</p>
-          <h3>Carbon-Aware SLO Enforcement for Cloud-Native Microservices Using Adaptive Reliability Policies</h3>
-          <p class="authors">with URS Jagadish Almaipeta</p>
-          <p class="card-body">Adaptive reliability policies that enforce service-level objectives while minimizing the carbon footprint of cloud-native microservice deployments.</p>
-          <div class="tags"><span>Green Computing</span><span>Cloud-Native</span><span>SLOs</span><span>Microservices</span></div>
-        </article>
-        <article class="card">
-          <p class="card-kicker">Intl. Conf. on Integrated Intelligence and Cognitive Systems 2026</p>
-          <h3>A Scalable Knowledge Integration Framework for Large Language Models in Heterogeneous Enterprises</h3>
-          <p class="authors">with AKM Seetaram Rao Rayarao, Saraswati Mishra, Sahil Yadav</p>
-          <p class="card-body">A framework for integrating heterogeneous enterprise knowledge sources into large language models at scale.</p>
-          <div class="tags"><span>LLMs</span><span>Knowledge Integration</span><span>Enterprise AI</span></div>
-        </article>
-      </div>
+    <!-- SERVICE -->
+    <section class="section" id="service">
+      <h2>Service &amp; Reviewing</h2>
+      <ul class="service-list">
+        <li><strong>Technical Program Committee</strong> — MCAIT 2026 (3 papers reviewed)</li>
+        <li><strong>Reviewer pool</strong> — ICCAI 2027</li>
+        <li><strong>Reviewer nominee</strong> — ICLR 2027</li>
+        <li><strong>Referee</strong> — IEEE TNSM, TNNLS, TKDE, TSC; Journal of Data Science; IET journals</li>
+        <li><strong>Proctor</strong> — IEEEXtreme 20.0 (IEEE)</li>
+        <li><strong>Judge</strong> — Timmy Awards, Major League Hacking (applications)</li>
+      </ul>
     </section>
 
     <!-- SKILLS -->
     <section class="section" id="skills">
-      <h2>Skills</h2>
+      <h2>Skills &amp; Education</h2>
       <div class="skill-grid">
         <div class="skill"><h4>Machine Learning</h4><p>PyTorch, TensorFlow, SparkML, MLflow, BERT, CNNs, Neural Networks, Data Mining, Feature Engineering, Online Experimentation</p></div>
         <div class="skill"><h4>Distributed Systems</h4><p>Kubernetes, Docker, gRPC, GraphQL, Istio, Envoy, Linkerd, Petabyte-scale Data Pipelines</p></div>
@@ -171,28 +190,26 @@
         <div class="skill"><h4>Languages</h4><p>Python, Java, C#, Go, TypeScript, R, SQL</p></div>
       </div>
       <div class="edu">
-        <div><h4>Education</h4>
-          <p><strong>MS, Data Science</strong> — Distributed Systems &amp; Machine Learning<br />State University of New York at Buffalo</p>
-          <p><strong>BTech, Electronics &amp; Communications</strong><br />Lovely Professional University, Punjab, India</p>
-        </div>
+        <p><strong>MS, Data Science</strong> — Distributed Systems &amp; Machine Learning<br /><span class="muted">State University of New York at Buffalo</span></p>
+        <p><strong>BTech, Electronics &amp; Communications</strong><br /><span class="muted">Lovely Professional University, Punjab, India</span></p>
       </div>
     </section>
 
     <!-- CONTACT -->
     <section class="section" id="contact">
       <h2>Contact</h2>
-      <p class="contact-lede">Open to conversations about ML systems, research collaboration, and speaking opportunities.</p>
+      <p class="contact-lede">Open to conversations about ML systems, research collaboration, reviewing, and speaking opportunities.</p>
       <div class="contact-links">
         <a class="btn primary" href="mailto:itsmesubhash21@gmail.com">itsmesubhash21@gmail.com</a>
-        <a class="btn ghost" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="btn ghost" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/subhash122/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn ghost" href="https://github.com/SubhashMadineni" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn ghost" href="https://scholar.google.com/citations?user=9bC-IyoAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
       </div>
-      <p class="note">Replace the LinkedIn and GitHub buttons above with your profile URLs in <code>index.html</code>.</p>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 Subhash BM · Built with HTML &amp; CSS · Hosted on GitHub Pages</p>
+    <p>© 2026 Subhash BM · Last updated October 2026</p>
   </footer>
 
   <script src="script.js"></script>
