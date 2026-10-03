@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subhash BM — Staff Research Scientist</title>
+  <meta name="description" content="Subhash BM is a Staff Research Scientist building large-scale distributed ML systems, from ads ranking at Meta to cloud ML at Microsoft and AWS." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav" id="nav">
+    <a class="brand" href="#top">subhash<span>.dev</span></a>
+    <nav class="links" id="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#research">Research</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menu-btn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="kicker">Staff Research Scientist · Bellevue, WA</p>
+        <h1>Subhash BM</h1>
+        <p class="tagline">I build large-scale distributed machine learning systems — from petabyte-scale ads ranking infrastructure at Meta to cloud ML platforms at Microsoft and AWS.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#experience">View my work</a>
+          <a class="btn ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="stats">
+          <div class="stat"><span class="num">9+</span><span class="label">years building ML systems</span></div>
+          <div class="stat"><span class="num">$44.5M</span><span class="label">est. annual inference savings</span></div>
+          <div class="stat"><span class="num">5,624</span><span class="label">features pruned at Meta</span></div>
+          <div class="stat"><span class="num">2</span><span class="label">published research papers</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <h2>About</h2>
+      <div class="about-grid">
+        <p class="lede">Staff Research Scientist at Meta with 9+ years of experience architecting high-performance, end-to-end ML pipelines across diverse technology stacks. I specialize in distributed ML systems, feature engineering at scale, and production model optimization — with a track record of mentoring engineering teams and delivering measurable business impact.</p>
+        <ul class="highlights">
+          <li>Designed FSOP, an end-to-end platform orchestrating distributed ML experiments across 10–20 production models simultaneously at petabyte scale.</li>
+          <li>Achieved 30–60% feature space reduction across 5 major advertising ranking models while holding prediction quality neutral (±0.025% NE).</li>
+          <li>Built end-to-end training pipelines (MLflow, PyTorch) serving millions of users, from data sampling to online experimentation.</li>
+          <li>Published research in sustainable computing and LLM knowledge integration.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <h2>Experience</h2>
+      <div class="timeline">
+
+        <article class="job">
+          <div class="job-head">
+            <div><h3>Meta Platforms</h3><p class="role">Staff Research Scientist · Bellevue, WA</p></div>
+            <span class="dates">Jan 2026 – Present</span>
+          </div>
+          <ul>
+            <li>Designed and built the Feature Space Optimization Platform (FSOP), an end-to-end automated system that orchestrates distributed ML experiments across 10–20 production models simultaneously on Meta's ML Pipeline Platform (MLPP), enabling feature evaluation, model retraining, and NE analysis at petabyte scale.</li>
+            <li>Achieved 30–60% feature space reduction across 5 major head/neck advertising ranking models in MC2 2025, removing 5,624 features while maintaining prediction quality (NE neutrality ±0.025%), yielding an estimated <strong>$44.5M/year</strong> in inference compute cost savings.</li>
+            <li>Architected the FSOP Workflow Insights dashboard, consolidating 5 heterogeneous data sources (SQL warehouses, real-time event streams, graph databases, blob storage, operational databases) into a unified monitoring platform for ~20 advertising model types across hundreds of training workflows.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <div><h3>Microsoft Azure</h3><p class="role">Senior Machine Learning Engineer · Redmond, WA</p></div>
+            <span class="dates">Jul 2024 – Jan 2026</span>
+          </div>
+          <ul>
+            <li>Provided technical leadership through design discussions, cross-functional collaboration, and mentorship — fostering a supportive team environment and accelerating onboarding and knowledge transfer.</li>
+            <li>Partnered with Engineering, PM, Marketing, Field, Finance, and Leadership to build ML solutions and run product-led growth campaigns for customer lifecycle management across M365 customers and partners.</li>
+            <li>Built end-to-end neural-network risk classification models for millions of users in PyTorch.</li>
+            <li>Developed end-to-end training pipelines with MLflow: data sampling, HRS labeling, feature extraction, model training, offline evaluation, online experiments, flight tuning, and analysis.</li>
+          </ul>
+          <p class="tech">C# · .NET · Aspire · Cosmos DB · Azure Pipelines · GraphQL · PyTorch · Kubernetes · MLflow</p>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <div><h3>Microsoft</h3><p class="role">Machine Learning Scientist II</p></div>
+            <span class="dates">Jan 2023 – Jul 2024</span>
+          </div>
+          <ul>
+            <li>Optimized request handling by categorizing and filtering requests to downstream services, reducing failures due to node repairs and improving system reliability.</li>
+          </ul>
+          <p class="tech">C# · TensorFlow · PyTorch · SparkML · Python · R · CNNs · BERT · Data Mining</p>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <div><h3>Amazon Web Services</h3><p class="role">Software Development Engineer II · Seattle, WA</p></div>
+            <span class="dates">Dec 2021 – Dec 2022</span>
+          </div>
+          <ul>
+            <li>Engineered and led modernization of the core service registry platform to a high-performance Java stack (Spring Boot, GraphQL, gRPC), eliminating substantial technical debt and bolstering scalability for distributed services across complex multi-cloud environments.</li>
+            <li>Architected and deployed a fully automated CI/CD pipeline with AWS CDK featuring integrated rollbacks and staged deployments, cutting critical deployment times to 4 hours.</li>
+            <li>Co-led design of highly scalable Dataplane cells ingesting and processing petabyte-scale streaming time-series data, boosting overall system efficiency by 35%.</li>
+            <li>Drove a 40% improvement in operational excellence with advanced CloudWatch monitoring and alarming for EKS clusters via AWS CDK.</li>
+            <li>Contributed performance enhancements to the open-source CNCF Cortex project.</li>
+          </ul>
+          <p class="tech">Go · Java (Spring Boot) · GraphQL · gRPC · Kubernetes · Docker · Istio · Envoy · Linkerd · AWS (CDK, EKS, CloudWatch) · React.js · TypeScript · Node.js · SQL · Linux</p>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <div><h3>Octagon Technologies</h3><p class="role">Software Engineer · Bangalore, India</p></div>
+            <span class="dates">Feb 2017 – Jul 2021</span>
+          </div>
+          <ul>
+            <li>Architected scalable data persistence layers with Spring Boot and JDBC/MySQL, focusing on efficient ORM and optimized data models for enterprise applications.</li>
+            <li>Designed and deployed robust RESTful APIs with clear endpoint definitions, optimized JSON serialization, and high-throughput client-server communication.</li>
+          </ul>
+          <p class="tech">Spring Boot · MySQL · JDBC · Log4j · Maven · Apache Tomcat · REST</p>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <div><h3>City University of New York</h3><p class="role">Research Scientist · New York, NY</p></div>
+            <span class="dates">Research</span>
+          </div>
+          <ul>
+            <li>Researched carbon emissions and sinks in global urban centers using Sentinel satellite imagery with advanced ETL and image classification workflows.</li>
+            <li>Built a multimodal news image ranking recommendation model with TensorFlow and PyTorch, leveraging collaborative filtering and data analysis to optimize content relevance.</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="section" id="research">
+      <h2>Research &amp; Publications</h2>
+      <div class="cards">
+        <article class="card">
+          <p class="card-kicker">IEEE-ICAISET 2026</p>
+          <h3>Carbon-Aware SLO Enforcement for Cloud-Native Microservices Using Adaptive Reliability Policies</h3>
+          <p class="authors">with URS Jagadish Almaipeta</p>
+          <p class="card-body">Adaptive reliability policies that enforce service-level objectives while minimizing the carbon footprint of cloud-native microservice deployments.</p>
+          <div class="tags"><span>Green Computing</span><span>Cloud-Native</span><span>SLOs</span><span>Microservices</span></div>
+        </article>
+        <article class="card">
+          <p class="card-kicker">Intl. Conf. on Integrated Intelligence and Cognitive Systems 2026</p>
+          <h3>A Scalable Knowledge Integration Framework for Large Language Models in Heterogeneous Enterprises</h3>
+          <p class="authors">with AKM Seetaram Rao Rayarao, Saraswati Mishra, Sahil Yadav</p>
+          <p class="card-body">A framework for integrating heterogeneous enterprise knowledge sources into large language models at scale.</p>
+          <div class="tags"><span>LLMs</span><span>Knowledge Integration</span><span>Enterprise AI</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <div class="skill-grid">
+        <div class="skill"><h4>Machine Learning</h4><p>PyTorch, TensorFlow, SparkML, MLflow, BERT, CNNs, Neural Networks, Data Mining, Feature Engineering, Online Experimentation</p></div>
+        <div class="skill"><h4>Distributed Systems</h4><p>Kubernetes, Docker, gRPC, GraphQL, Istio, Envoy, Linkerd, Petabyte-scale Data Pipelines</p></div>
+        <div class="skill"><h4>Cloud &amp; Infra</h4><p>AWS (CDK, EKS, CloudWatch), Azure Pipelines, Cosmos DB, CI/CD, Monitoring &amp; Alerting</p></div>
+        <div class="skill"><h4>Languages</h4><p>Python, Java, C#, Go, TypeScript, R, SQL</p></div>
+      </div>
+      <div class="edu">
+        <div><h4>Education</h4>
+          <p><strong>MS, Data Science</strong> — Distributed Systems &amp; Machine Learning<br />State University of New York at Buffalo</p>
+          <p><strong>BTech, Electronics &amp; Communications</strong><br />Lovely Professional University, Punjab, India</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <p class="contact-lede">Open to conversations about ML systems, research collaboration, and speaking opportunities.</p>
+      <div class="contact-links">
+        <a class="btn primary" href="mailto:itsmesubhash21@gmail.com">itsmesubhash21@gmail.com</a>
+        <a class="btn ghost" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn ghost" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <p class="note">Replace the LinkedIn and GitHub buttons above with your profile URLs in <code>index.html</code>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Subhash BM · Built with HTML &amp; CSS · Hosted on GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
